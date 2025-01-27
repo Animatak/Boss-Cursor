@@ -1,4 +1,4 @@
-# Boss-Cursor
+# Boss-Cursor [TL-Pro]
 
 Adds a cursor around the character that points to the boss when it is out of sight.
 
