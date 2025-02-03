@@ -84,7 +84,7 @@ Main.DrawRain.hook((original, self) => {
 			let headPos = Op_Addition(playerPos, Op_Multiply(normalizedDirection, adjustedDistance));
 			const screenHeadPos = Op_Subtraction(headPos, Main.screenPosition);
 
-			const headID = NPCID.Sets.BossHeadTextures[npc.type];
+			const headID = NPC.GetBossHeadTextureIndex(npc);
 
 			if (headID !== -1) {
 				if (screenHeadPos.X < margin) {
